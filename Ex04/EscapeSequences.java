@@ -7,5 +7,6 @@ public class EscapeSequences
 		System.out.println( "Tab \t Tab" );
 		System.out.println( "LN \n LN" );
 		System.out.println( "Escape double quote \" escaped" );
+		System.out.println( "Escape anti slash \\ escaped" );
 	}
 }
