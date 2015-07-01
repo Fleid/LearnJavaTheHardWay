@@ -10,7 +10,7 @@ public class BooleanExpressions
 		boolean a, b, c, d, e, f;
 		double x, y;
 		
-		System.out.pint( "Give me two numbers. First: " );
+		System.out.print( "Give me two numbers. First: " );
 		x = keyboard.nextDouble();
 		System.out.print( "Second: " );
 		y = keyboard.nextDouble();
@@ -29,5 +29,12 @@ public class BooleanExpressions
 		System.out.println( x + " is GREATER THAN " + y + ": " + e );
 		System.out.println( x + " is GREATHER THAN or EQUAL TO " + y + ": " + f );
 		System.out.println();
+		
+		System.out.println( !(a) + " " + (f) );
+		System.out.println( !(b) + " " + (e) );
+		System.out.println( !(c) + " " + (d) );
+		System.out.println( !(d) + " " + (c) );
+		System.out.println( !(e) + " " + (b) );
+		System.out.println( !(f) + " " + (a) );
 	}
 }
